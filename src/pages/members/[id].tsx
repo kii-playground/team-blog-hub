@@ -51,6 +51,8 @@ const Page: NextPage<Props> = (props) => {
                 <a
                   href={`https://twitter.com/${twitterUsername}`}
                   className="member-header__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FaTwitter
                     className="member-header__link-icon"
@@ -62,6 +64,8 @@ const Page: NextPage<Props> = (props) => {
                 <a
                   href={`https://github.com/${githubUsername}`}
                   className="member-header__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FaGithub
                     className="member-header__link-icon"
@@ -70,7 +74,12 @@ const Page: NextPage<Props> = (props) => {
                 </a>
               )}
               {websiteUrl && (
-                <a href={websiteUrl} className="member-header__link">
+                <a
+                  href={websiteUrl}
+                  className="member-header__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <AiOutlineLink
                     className="member-header__link-icon"
                     aria-label={`Link to website`}

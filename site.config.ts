@@ -13,13 +13,5 @@ export const config = {
       title: "About",
       href: "/about",
     },
-    {
-      title: "Twitter",
-      href: "https://twitter.com/kiichi_sugihara",
-    },
-    {
-      title: "GitHub",
-      href: "https://github.com/KiichiSugihara",
-    },
   ],
 };
