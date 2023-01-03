@@ -11,7 +11,10 @@ $side-padding-sm: 1rem;
   display: flex;
   flex-flow: column;
   position: relative;
-  background: var(--color-base-background-lighter);
+
+  &:hover, &:focus-visible, &:active {
+    background: var(--color-base-background-lighter);
+  }
 }
 .post-link__author {
   padding: 1.6rem $side-padding 0;
